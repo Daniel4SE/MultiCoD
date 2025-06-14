@@ -49,9 +49,5 @@ rl_selector:
   training_mode: true  # For online learning
 ```
 
-#### Design
-- **State**: Code features (length, complexity, CoD metrics)
-- **Action**: Select one of 5 solutions
-- **Reward**: +1 for correct, +0.5 for first passing, -0.5 for missing
 
 See `RL_SELECTOR_DESIGN.md` for complete details.
